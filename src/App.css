@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    background-color: transparent;
+}
+
+/* Ajuste no tamanho do logo */
+.logo {
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Ajusta a imagem dentro do espaço disponível */
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 3rem #EB7E32);
+}
+
+/* Cabeçalho fixo */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #0c0c0c; /* Fundo já aplicado */
+    height: 80px; /* Define uma altura fixa para o cabeçalho */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o cabeçalho */
+    margin-top: 15px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row; /* Alinha o título ao centro */
+    align-items: center;
+    color: #EB7E32;
+    text-align: center; /* Centraliza o texto */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #EB7E32; /* Cor do logo */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 300ms ease-in-out;
+}
+
+.nav-list a:hover {
+    color: #BAD546; /* Cor de destaque */
+}
+
+/* Estilização dos botões */
+.nav-botoes {
+    background-color: #BAD546;
+    border: 1px solid #EB7E32;
+    padding: 8px 16px; /* Espaçamento interno maior */
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 10px; /* Espaço entre os botões */
+    transition: all 300ms ease-in-out;
+}
+
+.nav-botoes:hover {
+    background-color: #EB7E32; /* Cor do logo no hover */
+    color: bisque; /* Cor do texto no hover */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
