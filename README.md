@@ -3,8 +3,10 @@
 Este repositório contém a versão inicial da interface web do projeto "Academia de Hábitos" (protótipo Figma disponível no link abaixo).
 
 ## Link do protótipo (Figma)
-
 https://www.figma.com/design/KJbG3xprqBLzMeB17RStJj/Academia-de-H%C3%A1bitos?node-id=0-1&p=f&m=dev
+
+## Link da página do protótipo (vercel)
+https://academiadehabitos.vercel.app/
 
 ## O que foi implementado até agora
 
